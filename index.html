@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Adam Portofolio</title>
+  <title>Patrick Portofolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- linking css file -->
@@ -61,20 +61,19 @@
           </div>
 
           <div class="col-lg-8">
-              <p> I am a student currently pursuing my education at Universitas Gunadarma. Throughout my educational journey, I have developed a creative knack for designing user interfaces across various platforms, whether it's for the web or applications. I possess a solid foundation in fundamental technologies such as HTML, CSS, PHP, MySql, and Bootstrap, which serve as the bedrock for every project I undertake. Additionally, I am proficient in utilizing design tools like Canva, Figma, Jitter, Adobe Premiere pro, CapCut and Adobe Illustrator.
+              <p> I am a student currently pursuing my education at Universitas Gunadarma. Throughout my educational journey, I have developed a creative knack for designing user interfaces across various platforms, whether it's for the web or applications. I possess a solid foundation in fundamental technologies such as HTML, CSS, PHP, Laravel, MySql, and Bootstrap, which serve as the bedrock for every project I undertake. Additionally, I am proficient in utilizing design tools like Canva, Figma, Jitter, Adobe Premiere pro, CapCut and Adobe Illustrator.
               </p>
               <div class="row mt-3">
                   <div class="col-md-6">
                       <ul>
                           <li>Name: Adam Patrick Dimalouw</li>
-                          <li>Age: 20</li>
-                         
+                          <li>Age: 21</li>
 
                       </ul>
                   </div>
               </div>
               <div class="row mt-3">
-                  <p> My enthusiasm about website propels me to continuously learn and innovate, striving to create unique and captivating digital experiences for users. Through this web portfolio, my aim is to share my creative journey and showcase my potential and dedication in the realm of design. Thank you for visiting, and I hope you enjoy the showcased works.
+                  <p> My enthusiasm for front end developer propels me to continuously learn and innovate, striving to create unique and captivating digital experiences for users. Through this web portfolio, my aim is to share my creative journey and showcase my potential and dedication in the realm of design. Thank you for visiting, and I hope you enjoy the showcased works.
                   </p>
               </div>
           </div>
@@ -140,29 +139,30 @@
 
            <div class="col-lg-4 mt-4">
               <div class="card portfolioContent">
-                  <img class="card-img-top" src="images/aquadamlogo.png" alt="Card image" style="width:100%">
+                  <img class="card-img-top" src="images/pathriftlogo.png" alt="Card image" style="width:100%">
                   <div class="card-body">
-                      <h4 class="card-title">Aquadam</h4>
-                      <p class="card-text">My online aquascape store, which I created for my academic writing at university.</p>
+                      <h4 class="card-title">Pathrift</h4>
+                      <p class="card-text">Created a personal sales website for Second Hand product, from creating workflow, design website, implementing website to a code, create databases, and conducting program testing.</p>
                       <div class="text-center">
-                          <a href="https://aquadam.000webhostapp.com/" class="btn btn-outline-dark">Link</a>
+                          <a href="https://drive.google.com/drive/folders/1NJXyHwbYsLj64RXdKnl1vxaSVfGw8fw3?usp=sharing" class="btn btn-outline-dark">Link</a>
                       </div>
                   </div>
               </div>
           </div>
-<!--
+
           <div class="col-lg-4 mt-4">
               <div class="card portfolioContent">
-                  <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                  <img class="card-img-top" src="images/mecakelogo.png" alt="Card image" style="width:100%">
                   <div class="card-body">
-                      <h4 class="card-title">Blog App</h4>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                      <h4 class="card-title">MeCake Website</h4>
+                      <p class="card-text">"Leading the MeCake web project, a virtual bakery for the festive season, I serve as both project leader and programmer. 
+                        Our team, comprising designers, analysts, testers, planners, and poster creators, collaborates to deliver an engaging online platform for Eid delicacies."</p>
                       <div class="text-center">
-                          <a href="#" class="btn btn-success">Link</a>
+                        <a href="https://drive.google.com/drive/folders/1vp2pexg9lhKnw5eQUX7xrjRr6_EYrdzp?usp=sharing" class="btn btn-outline-dark">Link</a>
                       </div>
                   </div>
               </div>
-          </div> -->
+          </div> 
       </div>
 </section>
 <!-- contact section-->
@@ -172,10 +172,11 @@
 
       <div class="row mt-4">
           <div class="col-lg-6">
+            <h2>location</h2>
               <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
               <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
                   <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
-                      <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Pasir+Putih,+Sawangan,+Depok,+Jawa+Barat,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                      <iframe style="height:75%;width:75%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Pasir+Putih,+Sawangan,+Depok,+Jawa+Barat,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
                       </iframe>
                   </div>
               </div>
@@ -183,11 +184,26 @@
 
           <div class="col-lg-6">
               <!-- form fields -->
-              <h1>Contact Me</h1>
-              <a href="mailto:adampatrickdimalouw@gmail.com" class="email-button">Send Email</a>
-              
-              
+              <h2>Send Mail</h2>
+                <form class="form-floating" action="form_email.php" method="post">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="nama" placeholder="Input Your Name" name="nama" required>
+                        <label for="nama">User Name</label>
+                    </div>
+                    <br>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="email" placeholder="Input Your E-mail" name="email" required>
+                        <label for="email">E-mail</label>
+                    </div>
+                    <br>
+                    <div>
+                        <textarea class="form-control" placeholder="Enter Your massage" id="pesan" name="pesan" rows="4" required></textarea>
+                    </div>
+                    <br>
+                    <input type="submit" class="btn btn-dark" value="Send Email">
+                </form>              
           </div>
+
 
       </div>
   </div>
